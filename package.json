@@ -1,0 +1,18 @@
+{
+  "name": "auth-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.25.0",
+    "@types/lodash": "^4.14.195",
+    "@types/node": "^20.3.1",
+    "dotenv": "^16.3.1",
+    "lodash": "^4.17.21",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "@types/pg": "^8.10.2"
+  }
+}
