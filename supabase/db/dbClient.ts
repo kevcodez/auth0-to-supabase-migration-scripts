@@ -1,5 +1,5 @@
-import "dotenv/config";
-import { Client } from "pg";
+import 'dotenv/config';
+import { Client } from 'pg';
 let client: Client | null = null;
 
 export async function dbClient() {

@@ -12,7 +12,6 @@
     "resolveJsonModule": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "noImplicitAny": true,
     "removeComments": true,
     "incremental": true
   },

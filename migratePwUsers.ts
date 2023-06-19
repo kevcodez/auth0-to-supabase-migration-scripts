@@ -3,7 +3,9 @@ import { supabaseDbService } from './supabase/db/supabaseDbService';
 import { readLinesOfFile, writeStream } from './fsHelpers';
 import { Auth0User } from './supabase/db/migration/migration-typedef';
 
+// Based on the user export from the Auth0 marketplace plugin to export users (free)
 const SOURCE_FILE_PATH = '../tresor-dev-full.json';
+// Based on the file we got from Auth0 support including password hashes
 const PW_FILE_PATH = '../tresor_dev_pws.json';
 const USERS_WITHOUT_PW_FILE_PATH = './usersWithoutPw';
 
